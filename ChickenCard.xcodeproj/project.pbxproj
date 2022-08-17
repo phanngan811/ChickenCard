@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6462C59E28AD0A57005FE066 /* ChickenCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C59D28AD0A57005FE066 /* ChickenCardApp.swift */; };
+		6462C5A028AD0A57005FE066 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C59F28AD0A57005FE066 /* ContentView.swift */; };
+		6462C5A228AD0A5A005FE066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6462C5A128AD0A5A005FE066 /* Assets.xcassets */; };
+		6462C5A528AD0A5A005FE066 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6462C5A428AD0A5A005FE066 /* Preview Assets.xcassets */; };
+		6462C5AF28AD0A5A005FE066 /* ChickenCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C5AE28AD0A5A005FE066 /* ChickenCardTests.swift */; };
+		6462C5B928AD0A5B005FE066 /* ChickenCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C5B828AD0A5B005FE066 /* ChickenCardUITests.swift */; };
+		6462C5BB28AD0A5B005FE066 /* ChickenCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C5BA28AD0A5B005FE066 /* ChickenCardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6462C5AB28AD0A5A005FE066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6462C59228AD0A57005FE066 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6462C59928AD0A57005FE066;
+			remoteInfo = ChickenCard;
+		};
+		6462C5B528AD0A5A005FE066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6462C59228AD0A57005FE066 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6462C59928AD0A57005FE066;
+			remoteInfo = ChickenCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6462C59A28AD0A57005FE066 /* ChickenCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChickenCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6462C59D28AD0A57005FE066 /* ChickenCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenCardApp.swift; sourceTree = "<group>"; };
+		6462C59F28AD0A57005FE066 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6462C5A128AD0A5A005FE066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6462C5A428AD0A5A005FE066 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6462C5AA28AD0A5A005FE066 /* ChickenCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChickenCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6462C5AE28AD0A5A005FE066 /* ChickenCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenCardTests.swift; sourceTree = "<group>"; };
+		6462C5B428AD0A5A005FE066 /* ChickenCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChickenCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6462C5B828AD0A5B005FE066 /* ChickenCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenCardUITests.swift; sourceTree = "<group>"; };
+		6462C5BA28AD0A5B005FE066 /* ChickenCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6462C59728AD0A57005FE066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6462C5A728AD0A5A005FE066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6462C5B128AD0A5A005FE066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6462C59128AD0A57005FE066 = {
+			isa = PBXGroup;
+			children = (
+				6462C59C28AD0A57005FE066 /* ChickenCard */,
+				6462C5AD28AD0A5A005FE066 /* ChickenCardTests */,
+				6462C5B728AD0A5A005FE066 /* ChickenCardUITests */,
+				6462C59B28AD0A57005FE066 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6462C59B28AD0A57005FE066 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6462C59A28AD0A57005FE066 /* ChickenCard.app */,
+				6462C5AA28AD0A5A005FE066 /* ChickenCardTests.xctest */,
+				6462C5B428AD0A5A005FE066 /* ChickenCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6462C59C28AD0A57005FE066 /* ChickenCard */ = {
+			isa = PBXGroup;
+			children = (
+				6462C59D28AD0A57005FE066 /* ChickenCardApp.swift */,
+				6462C59F28AD0A57005FE066 /* ContentView.swift */,
+				6462C5A128AD0A5A005FE066 /* Assets.xcassets */,
+				6462C5A328AD0A5A005FE066 /* Preview Content */,
+			);
+			path = ChickenCard;
+			sourceTree = "<group>";
+		};
+		6462C5A328AD0A5A005FE066 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6462C5A428AD0A5A005FE066 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6462C5AD28AD0A5A005FE066 /* ChickenCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				6462C5AE28AD0A5A005FE066 /* ChickenCardTests.swift */,
+			);
+			path = ChickenCardTests;
+			sourceTree = "<group>";
+		};
+		6462C5B728AD0A5A005FE066 /* ChickenCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6462C5B828AD0A5B005FE066 /* ChickenCardUITests.swift */,
+				6462C5BA28AD0A5B005FE066 /* ChickenCardUITestsLaunchTests.swift */,
+			);
+			path = ChickenCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6462C59928AD0A57005FE066 /* ChickenCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6462C5BE28AD0A5B005FE066 /* Build configuration list for PBXNativeTarget "ChickenCard" */;
+			buildPhases = (
+				6462C59628AD0A57005FE066 /* Sources */,
+				6462C59728AD0A57005FE066 /* Frameworks */,
+				6462C59828AD0A57005FE066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChickenCard;
+			productName = ChickenCard;
+			productReference = 6462C59A28AD0A57005FE066 /* ChickenCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6462C5A928AD0A5A005FE066 /* ChickenCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6462C5C128AD0A5B005FE066 /* Build configuration list for PBXNativeTarget "ChickenCardTests" */;
+			buildPhases = (
+				6462C5A628AD0A5A005FE066 /* Sources */,
+				6462C5A728AD0A5A005FE066 /* Frameworks */,
+				6462C5A828AD0A5A005FE066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6462C5AC28AD0A5A005FE066 /* PBXTargetDependency */,
+			);
+			name = ChickenCardTests;
+			productName = ChickenCardTests;
+			productReference = 6462C5AA28AD0A5A005FE066 /* ChickenCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6462C5B328AD0A5A005FE066 /* ChickenCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6462C5C428AD0A5B005FE066 /* Build configuration list for PBXNativeTarget "ChickenCardUITests" */;
+			buildPhases = (
+				6462C5B028AD0A5A005FE066 /* Sources */,
+				6462C5B128AD0A5A005FE066 /* Frameworks */,
+				6462C5B228AD0A5A005FE066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6462C5B628AD0A5A005FE066 /* PBXTargetDependency */,
+			);
+			name = ChickenCardUITests;
+			productName = ChickenCardUITests;
+			productReference = 6462C5B428AD0A5A005FE066 /* ChickenCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6462C59228AD0A57005FE066 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6462C59928AD0A57005FE066 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6462C5A928AD0A5A005FE066 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6462C59928AD0A57005FE066;
+					};
+					6462C5B328AD0A5A005FE066 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6462C59928AD0A57005FE066;
+					};
+				};
+			};
+			buildConfigurationList = 6462C59528AD0A57005FE066 /* Build configuration list for PBXProject "ChickenCard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6462C59128AD0A57005FE066;
+			productRefGroup = 6462C59B28AD0A57005FE066 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6462C59928AD0A57005FE066 /* ChickenCard */,
+				6462C5A928AD0A5A005FE066 /* ChickenCardTests */,
+				6462C5B328AD0A5A005FE066 /* ChickenCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6462C59828AD0A57005FE066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6462C5A528AD0A5A005FE066 /* Preview Assets.xcassets in Resources */,
+				6462C5A228AD0A5A005FE066 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6462C5A828AD0A5A005FE066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6462C5B228AD0A5A005FE066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6462C59628AD0A57005FE066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6462C5A028AD0A57005FE066 /* ContentView.swift in Sources */,
+				6462C59E28AD0A57005FE066 /* ChickenCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6462C5A628AD0A5A005FE066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6462C5AF28AD0A5A005FE066 /* ChickenCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6462C5B028AD0A5A005FE066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6462C5BB28AD0A5B005FE066 /* ChickenCardUITestsLaunchTests.swift in Sources */,
+				6462C5B928AD0A5B005FE066 /* ChickenCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6462C5AC28AD0A5A005FE066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6462C59928AD0A57005FE066 /* ChickenCard */;
+			targetProxy = 6462C5AB28AD0A5A005FE066 /* PBXContainerItemProxy */;
+		};
+		6462C5B628AD0A5A005FE066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6462C59928AD0A57005FE066 /* ChickenCard */;
+			targetProxy = 6462C5B528AD0A5A005FE066 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6462C5BC28AD0A5B005FE066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6462C5BD28AD0A5B005FE066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6462C5BF28AD0A5B005FE066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChickenCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.rmit.ngan.ChickenCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6462C5C028AD0A5B005FE066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChickenCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.rmit.ngan.ChickenCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6462C5C228AD0A5B005FE066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.rmit.ngan.ChickenCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChickenCard.app/ChickenCard";
+			};
+			name = Debug;
+		};
+		6462C5C328AD0A5B005FE066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.rmit.ngan.ChickenCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChickenCard.app/ChickenCard";
+			};
+			name = Release;
+		};
+		6462C5C528AD0A5B005FE066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.rmit.ngan.ChickenCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChickenCard;
+			};
+			name = Debug;
+		};
+		6462C5C628AD0A5B005FE066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.rmit.ngan.ChickenCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChickenCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6462C59528AD0A57005FE066 /* Build configuration list for PBXProject "ChickenCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6462C5BC28AD0A5B005FE066 /* Debug */,
+				6462C5BD28AD0A5B005FE066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6462C5BE28AD0A5B005FE066 /* Build configuration list for PBXNativeTarget "ChickenCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6462C5BF28AD0A5B005FE066 /* Debug */,
+				6462C5C028AD0A5B005FE066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6462C5C128AD0A5B005FE066 /* Build configuration list for PBXNativeTarget "ChickenCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6462C5C228AD0A5B005FE066 /* Debug */,
+				6462C5C328AD0A5B005FE066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6462C5C428AD0A5B005FE066 /* Build configuration list for PBXNativeTarget "ChickenCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6462C5C528AD0A5B005FE066 /* Debug */,
+				6462C5C628AD0A5B005FE066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6462C59228AD0A57005FE066 /* Project object */;
+}
