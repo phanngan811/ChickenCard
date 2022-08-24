@@ -214,6 +214,7 @@ struct ContentView: View {
         }
     }
     
+    
     func isGameOver() {
         if credits <= 0 {
             // SHOW MODAL MESSAGE OF GAME OVER
