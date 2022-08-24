@@ -43,12 +43,20 @@ struct ContentView: View {
                             }
                     }
                     Spacer()
+                   
+                    Button(action: {
+                        self.showModal.toggle()
+                    }){
+                        Image("ranking")
+                            .resizable()
+                            .frame(width: 90, height: 70, alignment: .trailing)
+                            
+                            .sheet(isPresented: $showModal) {
+                                ModalView(showModal: self.$showModal)
+                            }
+                    }
                     Spacer()
-                    Spacer()
-                    Spacer()
-                    Spacer()
-                    Spacer()
-                    Spacer()
+                    
                 }
                 //Spacer()
                 HStack{

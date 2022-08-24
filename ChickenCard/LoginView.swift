@@ -25,11 +25,8 @@ struct LoginView : View {
                     .background(lightGreyColor)
                     .cornerRadius(5.0)
                     .padding(.bottom, 20)
-                SecureField("Password", text: $password)
-                    .padding()
-                    .background(lightGreyColor)
-                    .cornerRadius(5.0)
-                    .padding(.bottom, 20)
+                    .frame(width: 400)
+
                 
                 Button(action: {print("Button tapped")
                     active = true
