@@ -17,19 +17,9 @@
 		6462C5B928AD0A5B005FE066 /* ChickenCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C5B828AD0A5B005FE066 /* ChickenCardUITests.swift */; };
 		6462C5BB28AD0A5B005FE066 /* ChickenCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C5BA28AD0A5B005FE066 /* ChickenCardUITestsLaunchTests.swift */; };
 		64A2BBC028B488E6007F6679 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A2BBBF28B488E6007F6679 /* ModalView.swift */; };
-		64C67C5828AE713000370397 /* spin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64C67C5728AE713000370397 /* spin.mp3 */; };
-		64C67C5A28AE73D700370397 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64C67C5928AE73D700370397 /* gameover.mp3 */; };
 		64C9448428AD25BC00CF79A2 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9448328AD25BC00CF79A2 /* CardsView.swift */; };
-		64C9448A28AE2A3600CF79A2 /* blink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64C9448928AE2A3600CF79A2 /* blink.mp3 */; };
 		64C9448D28AE2BCF00CF79A2 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9448C28AE2BCF00CF79A2 /* PlaySound.swift */; };
-		64C9449128AE340B00CF79A2 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64C9449028AE340B00CF79A2 /* winning.mp3 */; };
-		64C9449328AE348400CF79A2 /* bet-chip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64C9449228AE348400CF79A2 /* bet-chip.mp3 */; };
-		64CABECA28B52E750091F1C0 /* drum-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64CABEC928B52E750091F1C0 /* drum-music.mp3 */; };
-		64CABECC28B52FB60091F1C0 /* welcome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64CABECB28B52FB60091F1C0 /* welcome.mp3 */; };
-		64CABECE28B530A80091F1C0 /* wow-113128.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64CABECD28B530A70091F1C0 /* wow-113128.mp3 */; };
-		64CABED028B5337C0091F1C0 /* taratata-6264.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64CABECF28B5337C0091F1C0 /* taratata-6264.mp3 */; };
-		64CABED228B5353A0091F1C0 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CABED128B5353A0091F1C0 /* login.swift */; };
-		64CABED428B53A8A0091F1C0 /* NextLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CABED328B53A8A0091F1C0 /* NextLogin.swift */; };
+		64CABED228B5353A0091F1C0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CABED128B5353A0091F1C0 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,19 +53,9 @@
 		6462C5B828AD0A5B005FE066 /* ChickenCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenCardUITests.swift; sourceTree = "<group>"; };
 		6462C5BA28AD0A5B005FE066 /* ChickenCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		64A2BBBF28B488E6007F6679 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
-		64C67C5728AE713000370397 /* spin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spin.mp3; path = "../../../../Downloads/Resources 2/sound-effect/spin.mp3"; sourceTree = "<group>"; };
-		64C67C5928AE73D700370397 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gameover.mp3; path = "../../../../Downloads/Resources 2/sound-effect/gameover.mp3"; sourceTree = "<group>"; };
 		64C9448328AD25BC00CF79A2 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
-		64C9448928AE2A3600CF79A2 /* blink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = blink.mp3; path = "../../../../Downloads/Resources 2/sound-effect/blink.mp3"; sourceTree = "<group>"; };
 		64C9448C28AE2BCF00CF79A2 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
-		64C9449028AE340B00CF79A2 /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = winning.mp3; path = "../../../../Downloads/Resources 2/sound-effect/winning.mp3"; sourceTree = "<group>"; };
-		64C9449228AE348400CF79A2 /* bet-chip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bet-chip.mp3"; path = "../../../../Downloads/Resources 2/sound-effect/bet-chip.mp3"; sourceTree = "<group>"; };
-		64CABEC928B52E750091F1C0 /* drum-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "drum-music.mp3"; path = "../../../../Downloads/Resources 2/sound-effect/drum-music.mp3"; sourceTree = "<group>"; };
-		64CABECB28B52FB60091F1C0 /* welcome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welcome.mp3; path = ../../../../Downloads/welcome.mp3; sourceTree = "<group>"; };
-		64CABECD28B530A70091F1C0 /* wow-113128.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "wow-113128.mp3"; path = "../../../../Downloads/wow-113128.mp3"; sourceTree = "<group>"; };
-		64CABECF28B5337C0091F1C0 /* taratata-6264.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "taratata-6264.mp3"; path = "../../../../Downloads/taratata-6264.mp3"; sourceTree = "<group>"; };
-		64CABED128B5353A0091F1C0 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
-		64CABED328B53A8A0091F1C0 /* NextLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextLogin.swift; sourceTree = "<group>"; };
+		64CABED128B5353A0091F1C0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,12 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				64C9448B28AE2BAD00CF79A2 /* Helpers */,
-				64C9448528AE295E00CF79A2 /* Sounds */,
 				6462C59D28AD0A57005FE066 /* ChickenCardApp.swift */,
 				64A2BBBF28B488E6007F6679 /* ModalView.swift */,
 				64C9448328AD25BC00CF79A2 /* CardsView.swift */,
-				64CABED328B53A8A0091F1C0 /* NextLogin.swift */,
-				64CABED128B5353A0091F1C0 /* login.swift */,
+				64CABED128B5353A0091F1C0 /* LoginView.swift */,
 				6454115928B3C3FE003246CD /* WelcomeGame.swift */,
 				6454115B28B3DA62003246CD /* SplashScreenView.swift */,
 				6462C59F28AD0A57005FE066 /* ContentView.swift */,
@@ -165,22 +143,6 @@
 				6462C5BA28AD0A5B005FE066 /* ChickenCardUITestsLaunchTests.swift */,
 			);
 			path = ChickenCardUITests;
-			sourceTree = "<group>";
-		};
-		64C9448528AE295E00CF79A2 /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				64C67C5728AE713000370397 /* spin.mp3 */,
-				64CABECB28B52FB60091F1C0 /* welcome.mp3 */,
-				64C9449228AE348400CF79A2 /* bet-chip.mp3 */,
-				64CABECD28B530A70091F1C0 /* wow-113128.mp3 */,
-				64CABECF28B5337C0091F1C0 /* taratata-6264.mp3 */,
-				64CABEC928B52E750091F1C0 /* drum-music.mp3 */,
-				64C67C5928AE73D700370397 /* gameover.mp3 */,
-				64C9449028AE340B00CF79A2 /* winning.mp3 */,
-				64C9448928AE2A3600CF79A2 /* blink.mp3 */,
-			);
-			path = Sounds;
 			sourceTree = "<group>";
 		};
 		64C9448B28AE2BAD00CF79A2 /* Helpers */ = {
@@ -295,17 +257,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64C67C5A28AE73D700370397 /* gameover.mp3 in Resources */,
 				6462C5A528AD0A5A005FE066 /* Preview Assets.xcassets in Resources */,
-				64CABECA28B52E750091F1C0 /* drum-music.mp3 in Resources */,
 				6462C5A228AD0A5A005FE066 /* Assets.xcassets in Resources */,
-				64CABED028B5337C0091F1C0 /* taratata-6264.mp3 in Resources */,
-				64CABECE28B530A80091F1C0 /* wow-113128.mp3 in Resources */,
-				64C9448A28AE2A3600CF79A2 /* blink.mp3 in Resources */,
-				64C67C5828AE713000370397 /* spin.mp3 in Resources */,
-				64CABECC28B52FB60091F1C0 /* welcome.mp3 in Resources */,
-				64C9449328AE348400CF79A2 /* bet-chip.mp3 in Resources */,
-				64C9449128AE340B00CF79A2 /* winning.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64CABED428B53A8A0091F1C0 /* NextLogin.swift in Sources */,
 				6454115C28B3DA62003246CD /* SplashScreenView.swift in Sources */,
 				6454115A28B3C3FE003246CD /* WelcomeGame.swift in Sources */,
 				64C9448428AD25BC00CF79A2 /* CardsView.swift in Sources */,
@@ -338,7 +290,7 @@
 				64A2BBC028B488E6007F6679 /* ModalView.swift in Sources */,
 				6462C5A028AD0A57005FE066 /* ContentView.swift in Sources */,
 				6462C59E28AD0A57005FE066 /* ChickenCardApp.swift in Sources */,
-				64CABED228B5353A0091F1C0 /* login.swift in Sources */,
+				64CABED228B5353A0091F1C0 /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

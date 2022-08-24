@@ -13,7 +13,7 @@ struct SplashScreenView: View {
     @State private var opacity = 0.5
     var body: some View {
         if(isActive){
-            login(active: .constant(true))
+            LoginView()
         }else{
             ZStack{
                 LinearGradient(gradient: Gradient(colors: [Color("blue"), Color("darkYellow"), Color("darkBlue")]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)

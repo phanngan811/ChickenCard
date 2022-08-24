@@ -13,8 +13,7 @@ struct ContentView: View {
     @State private var backgrounds = Array(repeating: Color.white, count: 9)
     @State private var showGameOverModal = false
     @State private var credits = 100
-    @State var angle: Double = 0
-    @State var angle1: Double = 0
+    
     @State private var scale = 1.0
     @State var numberOfShakes: CGFloat = 0
     @State private var showModal = false
@@ -110,7 +109,6 @@ struct ContentView: View {
                             //Process a signle spin
                             self.processResult()
                             self.isGameOver()
-                            self.angle += 45
                             
                             
                         }){
@@ -119,7 +117,7 @@ struct ContentView: View {
                                 .frame(width: 100,height: 40)
                                 .cornerRadius(20)
                                 .overlay(Text("Spin").fontWeight(.heavy).foregroundColor(.purple))
-                                .rotationEffect(.degrees(angle))
+                                
                         }
                         
                         Text("\(betAmount) credits").padding(.top,10).font(.footnote)
@@ -129,7 +127,6 @@ struct ContentView: View {
                             //Process a signle spin
                             self.processResult(true)
                             self.isGameOver()
-                            self.angle1 += 45
                             
                             //playSound(sound: "spin", type: "mp3")
                             
@@ -142,7 +139,6 @@ struct ContentView: View {
                                 .cornerRadius(20)
                                 .overlay(Text("Max Spin").fontWeight(.heavy).foregroundColor(.purple))
                             
-                                .rotationEffect(.degrees(angle1))
                         }
                         
                         Text("\(betAmount * 5) credits").padding(.top,10).font(.footnote)

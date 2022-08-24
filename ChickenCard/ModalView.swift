@@ -64,7 +64,8 @@ struct ModalView: View {
                         .overlay(Text("DONE").foregroundColor(.yellow).fontWeight(.heavy).font(.system(size: 25)))
                     
                 }
-            }.onAppear(perform: {
+            }
+            .onAppear(perform: {
                 playSound(sound: "taratata-6264", type: "mp3")
             })
             
