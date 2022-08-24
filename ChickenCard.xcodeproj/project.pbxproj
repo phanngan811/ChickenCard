@@ -21,6 +21,7 @@
 		64C9448D28AE2BCF00CF79A2 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9448C28AE2BCF00CF79A2 /* PlaySound.swift */; };
 		64CABED228B5353A0091F1C0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CABED128B5353A0091F1C0 /* LoginView.swift */; };
 		CC82E0C728B5D12500DDC48A /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC82E0C628B5D12500DDC48A /* Modifier.swift */; };
+		CC82E0C928B5E4AE00DDC48A /* DataHighscore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC82E0C828B5E4AE00DDC48A /* DataHighscore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		64C9448C28AE2BCF00CF79A2 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		64CABED128B5353A0091F1C0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		CC82E0C628B5D12500DDC48A /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		CC82E0C828B5E4AE00DDC48A /* DataHighscore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHighscore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				6454115928B3C3FE003246CD /* WelcomeGame.swift */,
 				6454115B28B3DA62003246CD /* SplashScreenView.swift */,
 				6462C59F28AD0A57005FE066 /* ContentView.swift */,
+				CC82E0C828B5E4AE00DDC48A /* DataHighscore.swift */,
 				6462C5A128AD0A5A005FE066 /* Assets.xcassets */,
 				6462C5A328AD0A5A005FE066 /* Preview Content */,
 			);
@@ -294,6 +297,7 @@
 				6462C5A028AD0A57005FE066 /* ContentView.swift in Sources */,
 				6462C59E28AD0A57005FE066 /* ChickenCardApp.swift in Sources */,
 				64CABED228B5353A0091F1C0 /* LoginView.swift in Sources */,
+				CC82E0C928B5E4AE00DDC48A /* DataHighscore.swift in Sources */,
 				CC82E0C728B5D12500DDC48A /* Modifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,7 +12,9 @@ struct ContentView: View {
     
     @State private var highscore = UserDefaults.standard.integer(forKey: "highscore")
     
+    let userDefaults = UserDefaults.standard
     
+   
     @State private var numbers = Array(repeating:0, count: 9)
     @State private var backgrounds = Array(repeating: Color.white, count: 9)
     @State private var showGameOverModal = false
@@ -30,6 +32,8 @@ struct ContentView: View {
             LinearGradient(gradient: Gradient(colors: [Color("blue"), Color("darkYellow"), Color("darkBlue")]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
             VStack{
                 //Spacer()
+                let scoress = UserDefaults.standard.integer(forKey:"highscore")
+                Text("\(scoress)")
                 HStack{
                     Spacer()
                     Button(action: {
@@ -225,7 +229,7 @@ struct ContentView: View {
                 }
                 //ZStack
                 
-             Spacer()
+             //Spacer()
                 //Spacer()
             }.onAppear(perform: {
                 playSound(sound: "drum-music", type: "mp3")
