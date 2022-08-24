@@ -20,6 +20,7 @@
 		64C9448428AD25BC00CF79A2 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9448328AD25BC00CF79A2 /* CardsView.swift */; };
 		64C9448D28AE2BCF00CF79A2 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9448C28AE2BCF00CF79A2 /* PlaySound.swift */; };
 		64CABED228B5353A0091F1C0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CABED128B5353A0091F1C0 /* LoginView.swift */; };
+		CC82E0C728B5D12500DDC48A /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC82E0C628B5D12500DDC48A /* Modifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		64C9448328AD25BC00CF79A2 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
 		64C9448C28AE2BCF00CF79A2 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		64CABED128B5353A0091F1C0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CC82E0C628B5D12500DDC48A /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				64C9448C28AE2BCF00CF79A2 /* PlaySound.swift */,
+				CC82E0C628B5D12500DDC48A /* Modifier.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				6462C5A028AD0A57005FE066 /* ContentView.swift in Sources */,
 				6462C59E28AD0A57005FE066 /* ChickenCardApp.swift in Sources */,
 				64CABED228B5353A0091F1C0 /* LoginView.swift in Sources */,
+				CC82E0C728B5D12500DDC48A /* Modifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

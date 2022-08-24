@@ -9,6 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var cards = ["chickenSad", "chickenCool", "chickenAngry"]
+    
+    @State private var highscore = UserDefaults.standard.integer(forKey: "highscore")
+    
+    
     @State private var numbers = Array(repeating:0, count: 9)
     @State private var backgrounds = Array(repeating: Color.white, count: 9)
     @State private var showGameOverModal = false
@@ -71,11 +75,23 @@ struct ContentView: View {
                         }
                 }.scaleEffect(1.5)
                 Spacer()
-                Text("Credits: " + String(credits))
-                    .foregroundColor(.black)
-                    .padding(.all, 10)
-                    .background(Color.green.opacity(0.5))
-                    .cornerRadius(20)
+                HStack{
+                    Text("Credits: " + String(credits))
+                        .fontWeight(.heavy)
+                        .foregroundColor(.black)
+                        .padding(.all, 10)
+                        .background(Color.green.opacity(0.5))
+                        .cornerRadius(20)
+                    Text("High Score: \(highscore)")
+                        .foregroundColor(.black)
+                        .fontWeight(.heavy)
+                        .padding(.all, 10)
+                        .background(Color.green.opacity(0.5))
+                        .cornerRadius(20)
+                    
+                        
+                }
+                
                 Spacer()
                 //Card
                 VStack{
@@ -176,6 +192,7 @@ struct ContentView: View {
                                 Button {
                                     self.showGameOverModal = false
                                     self.credits = 100
+                                    self.resetGame()
                                 } label: {
                                     Text("New Game".uppercased()).foregroundColor(.yellow)
                                         .fontWeight(.heavy)
@@ -210,6 +227,17 @@ struct ContentView: View {
         }
     }
     
+    func newHighScore(){
+        highscore = credits
+        UserDefaults.standard.set(highscore, forKey: "highscore")
+    }
+    
+    func resetGame(){
+        UserDefaults.standard.set(0, forKey: "highscore")
+        highscore = 0
+        credits=100
+        
+    }
     
     func isGameOver() {
         if credits <= 0 {
@@ -283,6 +311,12 @@ struct ContentView: View {
         }else{
             //owin, max spin
             self.credits -= betAmount * 5
+        }
+        
+        if(credits > highscore){
+            newHighScore()
+        }else{
+            playSound(sound: "winning", type: "mp3")
         }
         
     }
