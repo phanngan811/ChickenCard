@@ -10,6 +10,7 @@ import SwiftUI
 struct CardsView: View {
     @Binding var card:String
     @Binding var background:Color
+
     var body: some View {
         Image(card)
             .resizable()
@@ -17,6 +18,7 @@ struct CardsView: View {
             .padding()
             .background(background.opacity(10))
             .cornerRadius(20)
+            
     }
 }
 

@@ -41,21 +41,21 @@ struct ModalView: View {
     var body: some View {
         ZStack{
             VStack{
-                
+                Spacer()
+                Spacer()
                 Text("ABOUT PLAYING GAME").foregroundColor(.yellow).fontWeight(.heavy)
                 List(items, children: \.items) { row in
                     Image(systemName: row.content)
                     Text(row.content)
                 }
+               
+            
                 Text("ABOUT INFO GAME").foregroundColor(.yellow).fontWeight(.heavy)
                 List(itemsInfo, children: \.items) { row in
                     Image(systemName: row.content)
                     Text(row.content)
                 }
-                Spacer()
-                Spacer()
-                Spacer()
-                Spacer()
+                
                 Button(action: {
                     self.showModal.toggle()
                 }){

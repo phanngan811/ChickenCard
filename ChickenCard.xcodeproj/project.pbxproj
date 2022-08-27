@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641AAB5828B8C61A00AB87A5 /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641AAB5728B8C61A00AB87A5 /* Leaderboard.swift */; };
+		64474EA628B7BF0300FFB384 /* taratata-6264.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64474EA528B7BF0300FFB384 /* taratata-6264.mp3 */; };
+		64474EA828B7BF0A00FFB384 /* welcome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64474EA728B7BF0A00FFB384 /* welcome.mp3 */; };
+		64474EAA28B7BF1000FFB384 /* wow-113128.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64474EA928B7BF1000FFB384 /* wow-113128.mp3 */; };
+		64474EAC28B7BF2700FFB384 /* drum-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64474EAB28B7BF2600FFB384 /* drum-music.mp3 */; };
+		64474EAE28B7BF2C00FFB384 /* bet-chip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64474EAD28B7BF2C00FFB384 /* bet-chip.mp3 */; };
+		64474EB028B7BF3700FFB384 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64474EAF28B7BF3700FFB384 /* winning.mp3 */; };
+		64474EB228B7BF3B00FFB384 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64474EB128B7BF3B00FFB384 /* gameover.mp3 */; };
+		64474EB428B7BF4100FFB384 /* highscore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64474EB328B7BF4100FFB384 /* highscore.mp3 */; };
+		64474EB628B7BF4600FFB384 /* blink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64474EB528B7BF4600FFB384 /* blink.mp3 */; };
 		6454115A28B3C3FE003246CD /* WelcomeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454115928B3C3FE003246CD /* WelcomeGame.swift */; };
 		6454115C28B3DA62003246CD /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454115B28B3DA62003246CD /* SplashScreenView.swift */; };
 		6462C59E28AD0A57005FE066 /* ChickenCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C59D28AD0A57005FE066 /* ChickenCardApp.swift */; };
@@ -17,11 +27,14 @@
 		6462C5B928AD0A5B005FE066 /* ChickenCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C5B828AD0A5B005FE066 /* ChickenCardUITests.swift */; };
 		6462C5BB28AD0A5B005FE066 /* ChickenCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C5BA28AD0A5B005FE066 /* ChickenCardUITestsLaunchTests.swift */; };
 		64A2BBC028B488E6007F6679 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A2BBBF28B488E6007F6679 /* ModalView.swift */; };
+		64A5141A28B87C2500DB7306 /* ring-up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64A5141928B87C2500DB7306 /* ring-up.mp3 */; };
+		64A610D828B7CCBD00C580AE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A610D728B7CCBD00C580AE /* Menu.swift */; };
 		64C9448428AD25BC00CF79A2 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9448328AD25BC00CF79A2 /* CardsView.swift */; };
 		64C9448D28AE2BCF00CF79A2 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9448C28AE2BCF00CF79A2 /* PlaySound.swift */; };
 		64CABED228B5353A0091F1C0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CABED128B5353A0091F1C0 /* LoginView.swift */; };
+		64CC695328B7EFB100D68431 /* SubMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC695228B7EFB100D68431 /* SubMenu.swift */; };
+		64D1316528BA2CAA00EE66D6 /* FireworksEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1316428BA2CAA00EE66D6 /* FireworksEffect.swift */; };
 		CC82E0C728B5D12500DDC48A /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC82E0C628B5D12500DDC48A /* Modifier.swift */; };
-		CC82E0C928B5E4AE00DDC48A /* DataHighscore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC82E0C828B5E4AE00DDC48A /* DataHighscore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +55,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		641AAB5728B8C61A00AB87A5 /* Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
+		64474EA528B7BF0300FFB384 /* taratata-6264.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "taratata-6264.mp3"; path = "../../../../Downloads/taratata-6264.mp3"; sourceTree = "<group>"; };
+		64474EA728B7BF0A00FFB384 /* welcome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welcome.mp3; path = ../../../../Downloads/welcome.mp3; sourceTree = "<group>"; };
+		64474EA928B7BF1000FFB384 /* wow-113128.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "wow-113128.mp3"; path = "../../../../Downloads/wow-113128.mp3"; sourceTree = "<group>"; };
+		64474EAB28B7BF2600FFB384 /* drum-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "drum-music.mp3"; path = "../../../../Downloads/Resources/sound-effect/drum-music.mp3"; sourceTree = "<group>"; };
+		64474EAD28B7BF2C00FFB384 /* bet-chip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bet-chip.mp3"; path = "../../../../Downloads/Resources/sound-effect/bet-chip.mp3"; sourceTree = "<group>"; };
+		64474EAF28B7BF3700FFB384 /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = winning.mp3; path = "../../../../Downloads/Resources/sound-effect/winning.mp3"; sourceTree = "<group>"; };
+		64474EB128B7BF3B00FFB384 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gameover.mp3; path = "../../../../Downloads/Resources/sound-effect/gameover.mp3"; sourceTree = "<group>"; };
+		64474EB328B7BF4100FFB384 /* highscore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = highscore.mp3; path = "../../../../Downloads/Resources/sound-effect/highscore.mp3"; sourceTree = "<group>"; };
+		64474EB528B7BF4600FFB384 /* blink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = blink.mp3; path = "../../../../Downloads/Resources/sound-effect/blink.mp3"; sourceTree = "<group>"; };
 		6454115928B3C3FE003246CD /* WelcomeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeGame.swift; sourceTree = "<group>"; };
 		6454115B28B3DA62003246CD /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
-		6462C59A28AD0A57005FE066 /* ChickenCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChickenCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6462C59A28AD0A57005FE066 /* Casino Chicken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Casino Chicken.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6462C59D28AD0A57005FE066 /* ChickenCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenCardApp.swift; sourceTree = "<group>"; };
 		6462C59F28AD0A57005FE066 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6462C5A128AD0A5A005FE066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,11 +78,14 @@
 		6462C5B828AD0A5B005FE066 /* ChickenCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenCardUITests.swift; sourceTree = "<group>"; };
 		6462C5BA28AD0A5B005FE066 /* ChickenCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		64A2BBBF28B488E6007F6679 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		64A5141928B87C2500DB7306 /* ring-up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ring-up.mp3"; path = "../../../../Downloads/Resources/sound-effect/ring-up.mp3"; sourceTree = "<group>"; };
+		64A610D728B7CCBD00C580AE /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		64C9448328AD25BC00CF79A2 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
 		64C9448C28AE2BCF00CF79A2 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		64CABED128B5353A0091F1C0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		64CC695228B7EFB100D68431 /* SubMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMenu.swift; sourceTree = "<group>"; };
+		64D1316428BA2CAA00EE66D6 /* FireworksEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksEffect.swift; sourceTree = "<group>"; };
 		CC82E0C628B5D12500DDC48A /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
-		CC82E0C828B5E4AE00DDC48A /* DataHighscore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHighscore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +113,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64474EA428B7BEE200FFB384 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				64474EAB28B7BF2600FFB384 /* drum-music.mp3 */,
+				64474EAD28B7BF2C00FFB384 /* bet-chip.mp3 */,
+				64474EA928B7BF1000FFB384 /* wow-113128.mp3 */,
+				64474EB528B7BF4600FFB384 /* blink.mp3 */,
+				64A5141928B87C2500DB7306 /* ring-up.mp3 */,
+				64474EB328B7BF4100FFB384 /* highscore.mp3 */,
+				64474EB128B7BF3B00FFB384 /* gameover.mp3 */,
+				64474EAF28B7BF3700FFB384 /* winning.mp3 */,
+				64474EA728B7BF0A00FFB384 /* welcome.mp3 */,
+				64474EA528B7BF0300FFB384 /* taratata-6264.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		6462C59128AD0A57005FE066 = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +143,7 @@
 		6462C59B28AD0A57005FE066 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6462C59A28AD0A57005FE066 /* ChickenCard.app */,
+				6462C59A28AD0A57005FE066 /* Casino Chicken.app */,
 				6462C5AA28AD0A5A005FE066 /* ChickenCardTests.xctest */,
 				6462C5B428AD0A5A005FE066 /* ChickenCardUITests.xctest */,
 			);
@@ -110,15 +153,12 @@
 		6462C59C28AD0A57005FE066 /* ChickenCard */ = {
 			isa = PBXGroup;
 			children = (
-				64C9448B28AE2BAD00CF79A2 /* Helpers */,
 				6462C59D28AD0A57005FE066 /* ChickenCardApp.swift */,
-				64A2BBBF28B488E6007F6679 /* ModalView.swift */,
-				64C9448328AD25BC00CF79A2 /* CardsView.swift */,
-				64CABED128B5353A0091F1C0 /* LoginView.swift */,
-				6454115928B3C3FE003246CD /* WelcomeGame.swift */,
 				6454115B28B3DA62003246CD /* SplashScreenView.swift */,
-				6462C59F28AD0A57005FE066 /* ContentView.swift */,
-				CC82E0C828B5E4AE00DDC48A /* DataHighscore.swift */,
+				64C9448B28AE2BAD00CF79A2 /* Helpers */,
+				64474EA428B7BEE200FFB384 /* Sound */,
+				64D1316628BA30C900EE66D6 /* Views */,
+				64D1316728BA30FC00EE66D6 /* ComponentViews */,
 				6462C5A128AD0A5A005FE066 /* Assets.xcassets */,
 				6462C5A328AD0A5A005FE066 /* Preview Content */,
 			);
@@ -159,6 +199,29 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		64D1316628BA30C900EE66D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64A610D728B7CCBD00C580AE /* Menu.swift */,
+				64A2BBBF28B488E6007F6679 /* ModalView.swift */,
+				6462C59F28AD0A57005FE066 /* ContentView.swift */,
+				64CABED128B5353A0091F1C0 /* LoginView.swift */,
+				641AAB5728B8C61A00AB87A5 /* Leaderboard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64D1316728BA30FC00EE66D6 /* ComponentViews */ = {
+			isa = PBXGroup;
+			children = (
+				6454115928B3C3FE003246CD /* WelcomeGame.swift */,
+				64C9448328AD25BC00CF79A2 /* CardsView.swift */,
+				64D1316428BA2CAA00EE66D6 /* FireworksEffect.swift */,
+				64CC695228B7EFB100D68431 /* SubMenu.swift */,
+			);
+			path = ComponentViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,7 +239,7 @@
 			);
 			name = ChickenCard;
 			productName = ChickenCard;
-			productReference = 6462C59A28AD0A57005FE066 /* ChickenCard.app */;
+			productReference = 6462C59A28AD0A57005FE066 /* Casino Chicken.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6462C5A928AD0A5A005FE066 /* ChickenCardTests */ = {
@@ -264,7 +327,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6462C5A528AD0A5A005FE066 /* Preview Assets.xcassets in Resources */,
+				64474EA828B7BF0A00FFB384 /* welcome.mp3 in Resources */,
+				64474EAE28B7BF2C00FFB384 /* bet-chip.mp3 in Resources */,
+				64474EB028B7BF3700FFB384 /* winning.mp3 in Resources */,
+				64474EAC28B7BF2700FFB384 /* drum-music.mp3 in Resources */,
+				64474EA628B7BF0300FFB384 /* taratata-6264.mp3 in Resources */,
 				6462C5A228AD0A5A005FE066 /* Assets.xcassets in Resources */,
+				64A5141A28B87C2500DB7306 /* ring-up.mp3 in Resources */,
+				64474EB428B7BF4100FFB384 /* highscore.mp3 in Resources */,
+				64474EB628B7BF4600FFB384 /* blink.mp3 in Resources */,
+				64474EAA28B7BF1000FFB384 /* wow-113128.mp3 in Resources */,
+				64474EB228B7BF3B00FFB384 /* gameover.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +367,14 @@
 				64C9448428AD25BC00CF79A2 /* CardsView.swift in Sources */,
 				64C9448D28AE2BCF00CF79A2 /* PlaySound.swift in Sources */,
 				64A2BBC028B488E6007F6679 /* ModalView.swift in Sources */,
+				64A610D828B7CCBD00C580AE /* Menu.swift in Sources */,
 				6462C5A028AD0A57005FE066 /* ContentView.swift in Sources */,
+				64CC695328B7EFB100D68431 /* SubMenu.swift in Sources */,
+				641AAB5828B8C61A00AB87A5 /* Leaderboard.swift in Sources */,
 				6462C59E28AD0A57005FE066 /* ChickenCardApp.swift in Sources */,
 				64CABED228B5353A0091F1C0 /* LoginView.swift in Sources */,
-				CC82E0C928B5E4AE00DDC48A /* DataHighscore.swift in Sources */,
 				CC82E0C728B5D12500DDC48A /* Modifier.swift in Sources */,
+				64D1316528BA2CAA00EE66D6 /* FireworksEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +546,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.rmit.ngan.ChickenCard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Casino Chicken";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,7 +574,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.rmit.ngan.ChickenCard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Casino Chicken";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

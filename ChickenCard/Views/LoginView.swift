@@ -25,7 +25,7 @@ struct LoginView : View {
                     .background(lightGreyColor)
                     .cornerRadius(5.0)
                     .padding(.bottom, 20)
-                    .frame(width: 400)
+                    .frame(width: 350)
 
                 
                 Button(action: {print("Button tapped")
@@ -38,10 +38,11 @@ struct LoginView : View {
                 
             }
             if active{
-                ContentView()
+                Menu()
                 
             }
         }
+        
         
     }
 
@@ -85,5 +86,6 @@ struct LoginView : View {
                 .cornerRadius(15.0)
         }
     }
+    
     
 }

@@ -11,58 +11,55 @@ struct ContentView: View {
     @State private var cards = ["chickenSad", "chickenCool", "chickenAngry"]
     
     @State private var highscore = UserDefaults.standard.integer(forKey: "highscore")
+       
+    @AppStorage("credit", store: .standard) var credits = 100
     
-    let userDefaults = UserDefaults.standard
+    @State public var scores = [Int]()
     
-   
+    @State public var highscores = UserDefaults.standard.array(forKey: "scores") as? [Int] ?? [Int]()
+    
     @State private var numbers = Array(repeating:0, count: 9)
     @State private var backgrounds = Array(repeating: Color.white, count: 9)
     @State private var showGameOverModal = false
-    @State private var credits = 100
     
     @State private var scale = 1.0
     @State var numberOfShakes: CGFloat = 0
     @State private var showModal = false
-
+    @State private var showMenu = false
+    
     private var betAmount = 5
     
     
     var body: some View {
         ZStack{
             LinearGradient(gradient: Gradient(colors: [Color("blue"), Color("darkYellow"), Color("darkBlue")]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
+            FireWorksView(numberOfFireworks: 10)
+
             VStack{
-                //Spacer()
-                let scoress = UserDefaults.standard.integer(forKey:"highscore")
-                Text("\(scoress)")
+
+
                 HStack{
-                    Spacer()
+                    
                     Button(action: {
-                        self.showModal.toggle()
-                    }){
-                        Image("chickenQuestion")
-                            .resizable()
-                            .frame(width: 70, height: 70, alignment: .trailing)
-                            .sheet(isPresented: $showModal) {
-                                ModalView(showModal: self.$showModal)
-                            }
+                        self.resetGame()
+                    }){Image(systemName: "arrow.2.circlepath.circle")
+                            .font(.system(size: 30))
+                            .foregroundColor(.red)
+                            .padding()
+                        
                     }
                     Spacer()
-                   
                     Button(action: {
-                        self.showModal.toggle()
-                    }){
-                        Image("ranking")
-                            .resizable()
-                            .frame(width: 90, height: 70, alignment: .trailing)
-                            
-                            .sheet(isPresented: $showModal) {
-                                ModalView(showModal: self.$showModal)
-                            }
+                        showMenu = true
+                    }){Image(systemName: "x.circle")
+                            .font(.system(size: 30))
+                            .foregroundColor(.red)
+                            .padding()
+                        
                     }
-                    Spacer()
                     
                 }
-                //Spacer()
+                
                 HStack{
                     Image("chickenLogo")
                         .resizable()
@@ -73,6 +70,7 @@ struct ContentView: View {
                                 numberOfShakes = 10
                             }
                         }
+                    
                     Text("CASINO CHICKEN")
                         .bold()
                         .foregroundColor(.purple)
@@ -88,7 +86,7 @@ struct ContentView: View {
                 }.scaleEffect(1.5)
                 Spacer()
                 HStack{
-                    Text("Credits: " + String(credits))
+                    Text("Scores: " + String(credits))
                         .fontWeight(.heavy)
                         .foregroundColor(.black)
                         .padding(.all, 10)
@@ -101,7 +99,7 @@ struct ContentView: View {
                         .background(Color.green.opacity(0.5))
                         .cornerRadius(20)
                     
-                        
+                    
                 }
                 
                 Spacer()
@@ -137,7 +135,7 @@ struct ContentView: View {
                             //Process a signle spin
                             self.processResult()
                             self.isGameOver()
-                            
+                            self.sortScore()
                             
                         }){
                             Rectangle()
@@ -145,16 +143,17 @@ struct ContentView: View {
                                 .frame(width: 100,height: 40)
                                 .cornerRadius(20)
                                 .overlay(Text("Spin").fontWeight(.heavy).foregroundColor(.purple))
-                                
+                            
                         }
                         
                         Text("\(betAmount) credits").padding(.top,10).font(.footnote)
                     }
                     VStack{
                         Button(action: {
-                            //Process a signle spin
+                            //Process  spin
                             self.processResult(true)
                             self.isGameOver()
+                            self.sortScore()
                             
                             //playSound(sound: "spin", type: "mp3")
                             
@@ -170,10 +169,13 @@ struct ContentView: View {
                         }
                         
                         Text("\(betAmount * 5) credits").padding(.top,10).font(.footnote)
+                        //print(scores)
                     }
                     
                 }
                 
+
+            
                 
                 //Spacer()
                 if showGameOverModal{
@@ -229,35 +231,51 @@ struct ContentView: View {
                 }
                 //ZStack
                 
-             //Spacer()
                 //Spacer()
+                //Spacer()
+                
             }.onAppear(perform: {
-                playSound(sound: "drum-music", type: "mp3")
+                playSound(sound: "gameover", type: "mp3")
             })
-            
+            if showMenu{
+                Menu()
+            }
             
         }
+    }
+    
+    func sortScore(){
+        scores.append(credits)
+        scores.sort(by: >)
+        highscores = scores
+        
+        UserDefaults.standard.set(highscores,forKey: "scores")
+        
     }
     
     func newHighScore(){
         highscore = credits
         UserDefaults.standard.set(highscore, forKey: "highscore")
+        playSound(sound: "highscore", type: "mp3")
     }
     
     func resetGame(){
         UserDefaults.standard.set(0, forKey: "highscore")
         highscore = 0
-        credits=100
-        
+        credits = 100
+        highscores = []
+        UserDefaults.standard.set(highscores, forKey: "scores")
+        playSound(sound: "ring-up", type: "mp3")
     }
     
     func isGameOver() {
         if credits <= 0 {
             // SHOW MODAL MESSAGE OF GAME OVER
             showGameOverModal = true
-            //playSound(sound: "gameover", type: "mp3")
+            playSound(sound: "gameover", type: "mp3")
         }
     }
+    
     func processResult(_ isMax: Bool = false){
         // set background back to white
         self.backgrounds = self.backgrounds.map({
@@ -280,6 +298,7 @@ struct ContentView: View {
         processWin(isMax)
         
         
+        
     }
     
     func processWin(_ isMax: Bool = false){
@@ -287,13 +306,17 @@ struct ContentView: View {
         
         if !isMax{
             //processing for signle spin
-            if isMatch(3, 4, 5){matches += 1}
+            if isMatch(3, 4, 5){matches += 1
+                
+            }
             
         }else{
             //processing for max spin
             
             //top row
-            if isMatch(0, 1, 2){matches += 1}
+            if isMatch(0, 1, 2){matches += 1
+                
+            }
             
             //middle row
             if isMatch(3, 4, 5){matches += 1}
@@ -317,19 +340,25 @@ struct ContentView: View {
             //at least 1 win
             self.credits += matches * betAmount * 2
             playSound(sound: "wow-113128", type: "mp3")
+            
+            if(credits > highscore){
+                newHighScore()
+                
+               
+            }
+            
         }else if !isMax{
             //0win, single spin
             self.credits -= betAmount
+            
         }else{
             //owin, max spin
             self.credits -= betAmount * 5
         }
-        
-        if(credits > highscore){
-            newHighScore()
-        }else{
-            playSound(sound: "winning", type: "mp3")
+        if(credits<0){
+            self.credits=0
         }
+        
         
     }
     
@@ -350,7 +379,8 @@ struct ContentView: View {
         
         return false
     }
-
+    
+    
 }
 
 struct ShakeEffect: AnimatableModifier {
